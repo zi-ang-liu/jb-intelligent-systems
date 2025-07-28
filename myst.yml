@@ -22,6 +22,7 @@ project:
         - file: algorithms/fibonacci.md
         - file: algorithms/mergesort.md
         - file: algorithms/mondrian.md
+    
     - title: Machine Learning
       children:
         - title: Explainable Ai
@@ -40,6 +41,7 @@ project:
         - title: Supervised Learning
           children:
             - file: machine_learning/supervised_learning/perceptron.md
+    
     - title: Numerical Methods
       children:
         - file: numerical_methods/bisection.md
@@ -52,6 +54,8 @@ project:
             - file: optimization/first_order_methods/momentum.md
         - title: Graphs And Networks
           children:
+            - file: optimization/graphs_and_networks/bfs.md
+            - file: optimization/graphs_and_networks/dfs.md
             - file: optimization/graphs_and_networks/dijkstra.md
         - title: Integer Programming
           children:
@@ -78,6 +82,7 @@ project:
             - file: optimization/surrogate_optimization/bo.md
             - file: optimization/surrogate_optimization/intro.md
             - file: optimization/surrogate_optimization/sbo.md
+   
     - title: OR
       children:
         - file: OR/analytic-hierarchy-process.md
